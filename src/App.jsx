@@ -5,17 +5,6 @@ function App() {
   const [task, setTask] = useState('')
   const [desc, setdesc] = useState('')
 
-  // let addHandler = () => {
-  //   se
-  // }
-
-  // {data.map((e) => {
-  //   return (
-  //     
-  //   )
-  // })}
-
-
   let addHandler = (e) => {
     e.preventDefault()
     setdata([...data, { task, desc }])
